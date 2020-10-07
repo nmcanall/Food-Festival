@@ -1,7 +1,7 @@
 require("bootstrap");
 const createEl = require("./domMethods");
 
-$(document).ready(function() {
+$(function() {
 
     const purchaseBtn = document.getElementById("purchaseBtn");
     const purchaseEmail = document.getElementById("purchaseEmail");
